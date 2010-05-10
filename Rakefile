@@ -4,7 +4,7 @@ Spec::Rake::SpecTask.new {|t| t.spec_opts = ['--color']}
 
 begin
   require 'jeweler'
-  project_name = 'parallel'
+  project_name = 'lowang-parallel'
   Jeweler::Tasks.new do |gem|
     gem.name = project_name
     gem.summary = "Run any kind of code in parallel processes"
