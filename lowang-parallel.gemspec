@@ -8,17 +8,19 @@ Gem::Specification.new do |s|
   s.version = "0.4.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Michael Grosser"]
+  s.authors = ["Michael Grosser", "Przemyslaw Wroblewski"]
   s.date = %q{2010-05-10}
-  s.email = %q{grosser.michael@gmail.com}
+  s.email = %q{przemyslaw.wroblewski@gmail.com}
   s.extra_rdoc_files = [
     "README.markdown"
   ]
   s.files = [
-    "README.markdown",
+    ".gitignore",
+     "README.markdown",
      "Rakefile",
      "VERSION",
      "lib/parallel.rb",
+     "lowang-parallel.gemspec",
      "parallel.gemspec",
      "spec/cases/each_with_index.rb",
      "spec/cases/map_with_index.rb",
@@ -40,7 +42,7 @@ Gem::Specification.new do |s|
      "spec/parallel_spec.rb",
      "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/grosser/lowang-parallel}
+  s.homepage = %q{http://github.com/lowang/lowang-parallel}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}

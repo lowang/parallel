@@ -8,9 +8,9 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = project_name
     gem.summary = "Run any kind of code in parallel processes"
-    gem.email = "grosser.michael@gmail.com"
-    gem.homepage = "http://github.com/grosser/#{project_name}"
-    gem.authors = ["Michael Grosser"]
+    gem.email = "przemyslaw.wroblewski@gmail.com"
+    gem.homepage = "http://github.com/lowang/#{project_name}"
+    gem.authors = ["Michael Grosser", "Przemyslaw Wroblewski"]
   end
 
   Jeweler::GemcutterTasks.new
